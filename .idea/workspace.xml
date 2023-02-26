@@ -4,7 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda24f7-3cfe-4111-af9e-1c379b29cec2" name="变更" comment="init">
+    <list default="true" id="970be5cf-5bab-40aa-a3d6-5abf95a9a8b6" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/xczx-base/src/main/java/com/yolo/xczx/base/model/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-base/src/main/java/com/yolo/xczx/base/model/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-api/src/main/java/com/yolo/xczx/api/XczxApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-api/src/main/java/com/yolo/xczx/api/controller/CourseBaseInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-api/src/test/java/com/yolo/xczx/XczxApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/main/java/com/yolo/xczx/model/dto/QueryCourseParamsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/main/java/com/yolo/xczx/model/po/CourseBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/main/java/com/yolo/xczx/model/po/CourseMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/main/java/com/yolo/xczx/model/po/CourseTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/main/java/com/yolo/xczx/model/po/Teachplan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/main/java/com/yolo/xczx/model/po/TeachplanMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-model/src/test/java/com/yolo/xczx/XczxModelApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-service/src/main/java/com/yolo/xczx/XczxServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-service/src/test/java/com/yolo/xczx/XczxServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/controller/CourseBaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/controller/CourseMarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/controller/CourseTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/controller/TeachplanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/controller/TeachplanMediaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/CourseBaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/CourseBaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/CourseMarketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/CourseMarketMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/CourseTeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/CourseTeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMediaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/mapper/TeachplanMediaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/model/po/CourseBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/model/po/CourseMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/model/po/CourseTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/model/po/Teachplan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/model/po/TeachplanMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/CourseBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/CourseMarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/CourseTeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/TeachplanMediaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/TeachplanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/impl/CourseBaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/impl/CourseMarketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/impl/CourseTeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/impl/TeachplanMediaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/xuecheng/content/service/impl/TeachplanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +69,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/xczx-content/xczx-api" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -23,53 +79,48 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Maven\apache-maven-3.6.1\maven-repo" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2MEJagQrW4II5MXudn7NXbRNNGq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2MGYHTlCY5QS2Ao6FSseZJ9wDAZ" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "D:/Web学习/demo/playPiano",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Spring Boot.XczxParentApplication">
-    <configuration name="XczxBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="xczx-base" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yolo.xczx.base.XczxBaseApplication" />
+  <component name="RunManager" selected="Spring Boot.XczxApiApplication">
+    <configuration name="XczxApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xczx-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yolo.xczx.api.XczxApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XczxParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="xczx-parent" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yolo.xczx.XczxParentApplication" />
+    <configuration name="XczxServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xczx-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yolo.xczx.XczxServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,51 +129,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="7bda24f7-3cfe-4111-af9e-1c379b29cec2" name="变更" comment="" />
-      <created>1677326873005</created>
+      <changelist id="970be5cf-5bab-40aa-a3d6-5abf95a9a8b6" name="变更" comment="" />
+      <created>1677395303241</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677326873005</updated>
-      <workItem from="1677326874265" duration="805000" />
+      <updated>1677395303241</updated>
+      <workItem from="1677395304255" duration="954000" />
     </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1677327444994</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1677327444994</updated>
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <created>1677327490217</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677327490217</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/xczx-base" />
-      <path value="$PROJECT_DIR$/xczx-parent" />
-    </ignored-roots>
-    <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

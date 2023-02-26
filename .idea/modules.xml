@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/xczx-generator/x-plus-generator.iml" filepath="$PROJECT_DIR$/xczx-generator/x-plus-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-content/xczx-api/xczx-api.iml" filepath="$PROJECT_DIR$/xczx-content/xczx-api/xczx-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-base/xczx-base.iml" filepath="$PROJECT_DIR$/xczx-base/xczx-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-content/xczx-content.iml" filepath="$PROJECT_DIR$/xczx-content/xczx-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-content/xczx-model/xczx-model.iml" filepath="$PROJECT_DIR$/xczx-content/xczx-model/xczx-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-parent/xczx-parent.iml" filepath="$PROJECT_DIR$/xczx-parent/xczx-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xczxProject.iml" filepath="$PROJECT_DIR$/xczxProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-content/xczx-service/xczx-service.iml" filepath="$PROJECT_DIR$/xczx-content/xczx-service/xczx-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xczxProject.iml" filepath="$PROJECT_DIR$/.idea/xczxProject.iml" />
     </modules>
   </component>
 </project>
