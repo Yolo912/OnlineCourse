@@ -3,7 +3,7 @@
 <mapper namespace="com.yolo.xczx.content.mapper.TeachplanMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.yolo.content.model.po.Teachplan">
+    <resultMap id="BaseResultMap" type="com.yolo.xczx.content.model.po.Teachplan">
         <id column="id" property="id" />
         <result column="pname" property="pname" />
         <result column="parentid" property="parentid" />

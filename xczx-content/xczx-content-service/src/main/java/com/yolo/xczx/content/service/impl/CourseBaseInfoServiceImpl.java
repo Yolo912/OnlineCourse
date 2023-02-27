@@ -5,16 +5,13 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yolo.xczx.content.mapper.CourseBaseMapper;
 import com.yolo.xczx.base.model.PageParams;
 import com.yolo.xczx.base.model.PageResult;
-import com.yolo.content.model.dto.QueryCourseParamsDto;
-import com.yolo.content.model.po.CourseBase;
+import com.yolo.xczx.content.model.dto.QueryCourseParamsDto;
+import com.yolo.xczx.content.model.po.CourseBase;
 import com.yolo.xczx.content.service.CourseBaseInfoService;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**

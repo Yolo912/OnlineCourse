@@ -2,7 +2,7 @@ package com.yolo.xczx.content.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yolo.content.model.po.TeachplanMedia;
+import com.yolo.xczx.content.model.po.TeachplanMedia;
 
 /**
  * <p>

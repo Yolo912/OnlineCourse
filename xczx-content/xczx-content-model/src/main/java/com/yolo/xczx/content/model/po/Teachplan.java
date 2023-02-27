@@ -1,4 +1,4 @@
-package com.yolo.content.model.po;
+package com.yolo.xczx.content.model.po;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

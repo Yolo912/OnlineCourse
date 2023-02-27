@@ -1,8 +1,10 @@
 package com.yolo.xczx.content.controller;
 
-import com.yolo.xczx.content.service.CourseBaseService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.yolo.xczx.content.service.CourseBaseService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -11,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * 课程基本信息 前端控制器
  * </p>
  *
- * @author itcast
+ * @author 912
  */
 @Slf4j
 @RestController
@@ -19,5 +21,5 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class CourseBaseController {
 
     @Autowired
-    private CourseBaseService courseBaseService;
+    private CourseBaseService  courseBaseService;
 }

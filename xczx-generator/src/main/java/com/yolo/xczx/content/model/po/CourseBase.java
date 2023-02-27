@@ -14,7 +14,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * 课程基本信息
  * </p>
  *
- * @author itcast
+ * @author 912
  */
 @Data
 @TableName("course_base")

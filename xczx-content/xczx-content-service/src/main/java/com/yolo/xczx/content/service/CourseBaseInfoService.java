@@ -2,8 +2,8 @@ package com.yolo.xczx.content.service;
 
 import com.yolo.xczx.base.model.PageParams;
 import com.yolo.xczx.base.model.PageResult;
-import com.yolo.content.model.dto.QueryCourseParamsDto;
-import com.yolo.content.model.po.CourseBase;
+import com.yolo.xczx.content.model.dto.QueryCourseParamsDto;
+import com.yolo.xczx.content.model.po.CourseBase;
 
 /**
  * 课程管理service

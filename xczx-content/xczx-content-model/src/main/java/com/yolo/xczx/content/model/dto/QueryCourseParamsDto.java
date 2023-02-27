@@ -1,4 +1,4 @@
-package com.yolo.content.model.dto;
+package com.yolo.xczx.content.model.dto;
 
 import lombok.Data;
 import lombok.ToString;
