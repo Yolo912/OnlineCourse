@@ -2,6 +2,8 @@ package com.yolo.xczx.content.controller;
 
 import com.yolo.xczx.base.model.PageParams;
 import com.yolo.xczx.base.model.PageResult;
+import com.yolo.xczx.content.model.dto.AddCourseDto;
+import com.yolo.xczx.content.model.dto.CourseBaseInfoDto;
 import com.yolo.xczx.content.model.dto.QueryCourseParamsDto;
 import com.yolo.xczx.content.model.po.CourseBase;
 import com.yolo.xczx.content.service.CourseBaseInfoService;
@@ -30,5 +32,15 @@ public class CourseBaseInfoController {
         PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams,
             queryCourseParams);
         return courseBasePageResult;
+    }
+
+    @ApiOperation("新增课程接口")
+    @PostMapping("/course")
+    public CourseBaseInfoDto createCourseBase(@RequestBody AddCourseDto addCourseDto){
+
+        //TODO 获取当前用户所属培训机构id
+        Long companyId=22L;
+        CourseBaseInfoDto courseBase = courseBaseInfoService.createCourseBase(companyId, addCourseDto);
+        return courseBase;
     }
 }
