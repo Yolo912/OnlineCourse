@@ -31,6 +31,11 @@
         <swagger-spring-boot-starter.version>1.9.0.RELEASE</swagger-spring-boot-starter.version>
         <elasticsearch.version>7.12.1</elasticsearch.version>
     </properties>
+    <modules>
+        <module>../xczx-content</module>
+        <module>../xczx-system</module>
+        <module>../xczx-base</module>
+    </modules>
     <dependencyManagement>
         <dependencies>
             <dependency>

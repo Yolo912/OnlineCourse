@@ -8,28 +8,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xczx-content" enabled="true">
+      <profile name="Annotation profile for xczx-generator" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../Maven/apache-maven-3.6.1/maven-repo/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
-        <module name="xczx-model" />
-        <module name="xczx-api" />
-        <module name="xczx-service" />
+        <module name="xczx-content-service" />
+        <module name="xczx-system-model" />
+        <module name="xczx-system-api" />
+        <module name="xczx-system-service" />
         <module name="xczx-base" />
-        <module name="x-plus-generator" />
+        <module name="xczx-content-model" />
+        <module name="xczx-generator" />
+        <module name="xczx-content-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="x-plus-generator" target="1.8" />
-      <module name="xczx-api" target="1.8" />
       <module name="xczx-base" target="1.8" />
       <module name="xczx-content" target="1.8" />
-      <module name="xczx-model" target="1.8" />
+      <module name="xczx-content-api" target="1.8" />
+      <module name="xczx-content-model" target="1.8" />
+      <module name="xczx-content-service" target="1.8" />
+      <module name="xczx-generator" target="1.8" />
       <module name="xczx-parent" target="1.8" />
-      <module name="xczx-service" target="1.8" />
+      <module name="xczx-system" target="1.8" />
+      <module name="xczx-system-api" target="1.8" />
+      <module name="xczx-system-model" target="1.8" />
+      <module name="xczx-system-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

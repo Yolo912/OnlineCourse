@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xczx-content/xczx-api" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xczx-content/xczx-model" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xczx-content/xczx-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xczx-content/xczx-content-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xczx-content/xczx-content-model" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xczx-content/xczx-content-service" vcs="Git" />
   </component>
 </project>
