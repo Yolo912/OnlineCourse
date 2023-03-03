@@ -7,7 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/xczx-content/xczx-content-api/xczx-content-api.iml" filepath="$PROJECT_DIR$/xczx-content/xczx-content-api/xczx-content-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-content/xczx-content-model/xczx-content-model.iml" filepath="$PROJECT_DIR$/xczx-content/xczx-content-model/xczx-content-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-content/xczx-content-service/xczx-content-service.iml" filepath="$PROJECT_DIR$/xczx-content/xczx-content-service/xczx-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-gateway/xczx-gateway.iml" filepath="$PROJECT_DIR$/xczx-gateway/xczx-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-generator/xczx-generator.iml" filepath="$PROJECT_DIR$/xczx-generator/xczx-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-media/xczx-media.iml" filepath="$PROJECT_DIR$/xczx-media/xczx-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-media/xczx-media-api/xczx-media-api.iml" filepath="$PROJECT_DIR$/xczx-media/xczx-media-api/xczx-media-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-media/xczx-media-model/xczx-media-model.iml" filepath="$PROJECT_DIR$/xczx-media/xczx-media-model/xczx-media-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xczx-media/xczx-media-service/xczx-media-service.iml" filepath="$PROJECT_DIR$/xczx-media/xczx-media-service/xczx-media-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-parent/xczx-parent.iml" filepath="$PROJECT_DIR$/xczx-parent/xczx-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-system/xczx-system.iml" filepath="$PROJECT_DIR$/xczx-system/xczx-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/xczx-system/xczx-system-api/xczx-system-api.iml" filepath="$PROJECT_DIR$/xczx-system/xczx-system-api/xczx-system-api.iml" />

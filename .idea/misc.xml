@@ -4,9 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/xczx-base/pom.xml" />
+        <option value="$PROJECT_DIR$/xczx-media/pom.xml" />
         <option value="$PROJECT_DIR$/xczx-parent/pom.xml" />
         <option value="$PROJECT_DIR$/xczx-system/pom.xml" />
         <option value="$PROJECT_DIR$/xczx-content/pom.xml" />
+        <option value="$PROJECT_DIR$/xczx-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/xczx-generator/pom.xml" />
       </list>
     </option>

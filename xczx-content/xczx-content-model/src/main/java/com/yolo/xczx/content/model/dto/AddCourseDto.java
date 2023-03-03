@@ -52,7 +52,7 @@ public class AddCourseDto {
  private String pic;
 
  @NotEmpty(message = "收费规则不能为空")
- @ApiModelProperty(value = "收费规则，对应数据字典", required = true)
+ @ApiModelProperty(value = "收费规则，对应数据字典", required = false)
  private String charge;
 
  @ApiModelProperty(value = "价格")

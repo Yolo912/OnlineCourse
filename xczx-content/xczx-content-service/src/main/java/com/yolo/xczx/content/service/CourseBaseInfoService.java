@@ -4,6 +4,7 @@ import com.yolo.xczx.base.model.PageParams;
 import com.yolo.xczx.base.model.PageResult;
 import com.yolo.xczx.content.model.dto.AddCourseDto;
 import com.yolo.xczx.content.model.dto.CourseBaseInfoDto;
+import com.yolo.xczx.content.model.dto.EditCourseDto;
 import com.yolo.xczx.content.model.dto.QueryCourseParamsDto;
 import com.yolo.xczx.content.model.po.CourseBase;
 
@@ -32,4 +33,19 @@ public interface CourseBaseInfoService {
      * @return 课程基本信息，营销信息
      */
     CourseBaseInfoDto createCourseBase(Long companyId , AddCourseDto addCourseDto);
+
+    /**
+     * 根据课程id查询课程基础信息
+     * @param courseId 课程id
+     * @return 课程基础信息
+     */
+    CourseBaseInfoDto getCourseBaseInfo(Long courseId);
+
+    /**
+     * 修改课程基础信息
+     * @param companyId 培训机构id
+     * @param editCourseDto 修改课程信息
+     * @return 课程基础信息
+     */
+    CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto editCourseDto);
 }

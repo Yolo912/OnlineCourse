@@ -4,17 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="830e63b6-8e71-4fc6-82df-82efaadf30ef" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto/AddCourseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto/CourseBaseInfoDto.java" afterDir="false" />
+    <list default="true" id="f5fd41db-947f-441f-b494-57c2b199d8ce" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/xczx-base/src/main/java/com/yolo/xczx/base/execption/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-base/src/main/java/com/yolo/xczx/base/execption/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-base/src/main/java/com/yolo/xczx/base/execption/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-base/src/main/java/com/yolo/xczx/base/execption/ValidationGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-base/src/main/java/com/yolo/xczx/base/execption/XueChengPlusException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-api/src/main/java/com/yolo/xczx/content/controller/TeachplanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto/EditCourseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto/SaveTeachplanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto/TeachplanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/CourseMarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/TeachplanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/impl/CourseMarketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/impl/TeachplanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/controller/MediaFilesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/controller/MediaProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/controller/MediaProcessHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/controller/MqMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/controller/MqMessageHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MediaFilesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MediaFilesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MediaProcessHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MediaProcessHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MediaProcessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MediaProcessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MqMessageHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MqMessageHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MqMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/mapper/MqMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/model/po/MediaFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/model/po/MediaProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/model/po/MediaProcessHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/model/po/MqMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/model/po/MqMessageHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/MediaFilesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/MediaProcessHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/MediaProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/MqMessageHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/MqMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/impl/MediaFilesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/impl/MediaProcessHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/impl/MediaProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/impl/MqMessageHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/media/service/impl/MqMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/dto/QueryMediaParamsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/dto/UploadFileParamsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/dto/UploadFileResultDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/po/MediaFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/po/MediaProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/po/MediaProcessHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/po/MqMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model/po/MqMessageHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/config/MinioConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MediaFilesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MediaFilesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MediaProcessHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MediaProcessHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MediaProcessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MediaProcessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MqMessageHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MqMessageHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MqMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/main/java/com/yolo/xczx/media/mapper/MqMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/test/java/com/yolo/xczx/MediaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/test/java/com/yolo/xczx/MediaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-media/xczx-media-service/src/test/java/com/yolo/xczx/MinioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xczx-system/xczx-system-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-test/xc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-api/src/main/java/com/yolo/xczx/content/controller/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-api/src/main/java/com/yolo/xczx/content/controller/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/CourseMarketMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/CourseMarketMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto/AddCourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto/AddCourseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-model/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/TeachplanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/TeachplanMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/TeachplanMediaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/TeachplanMediaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/TeachplanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/mapper/TeachplanMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/CourseBaseInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/java/com/yolo/xczx/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-content/xczx-content-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/generator/MediaCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-generator/src/main/java/com/yolo/xczx/generator/MediaCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-system/xczx-system-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-system/xczx-system-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-system/xczx-system-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-system/xczx-system-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-system/xczx-system-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xczx-system/xczx-system-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xczx-system/xczx-system-service/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +104,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="32315b85-eded-4e99-b5de-b064b81bf187" />
+        <option name="url" value="https://github.com/Yolo912/OnlineCourse.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="file://$PROJECT_DIR$/api-test/xc-content-api.http" environment="dev" />
@@ -48,7 +140,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2MJCbxC1iNdQvXGZiLft1AuHuFY" />
+  <component name="ProjectId" id="2MRpwG7QVDa2GeZgMPjw561RBCg" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -58,48 +150,48 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Web学习/xczxProject/xczx-content/xczx-content-model/src/main/java/com/yolo/xczx/content/model/dto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "rest.client.default.execution.environment": "dev",
-    "settings.editor.selected.configurable": "http.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Web学习/xczxProject/xczx-media/xczx-media-model/src/main/java/com/yolo/xczx/media/model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e2c02746f4265e48b48c5deb9dc7be52&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.yolo.xczx.content.service.impl" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web学习\xczxProject\xczx-content\xczx-content-model\src\main\java\com\yolo\xczx\content\model\dto" />
-      <recent name="D:\Web学习\xczxProject\xczx-content\xczx-content-service\src\main\java\com\yolo\xczx\content\mapper" />
-      <recent name="D:\Web学习\xczxProject\xczx-system\xczx-system-api\src\main\java\com\yolo\xczx\system\config" />
+      <recent name="D:\Web学习\xczxProject\xczx-media\xczx-media-model\src\main\java\com\yolo\xczx\media\model" />
+      <recent name="D:\Web学习\xczxProject\xczx-media\xczx-media-service\src\main\java\com\yolo\xczx\media" />
+      <recent name="D:\Web学习\xczxProject\xczx-media\xczx-media-service\src\main\java\com\yolo\xczx\media\mapper" />
+      <recent name="D:\Web学习\xczxProject\xczx-media\xczx-media-model\src\main\java\com\yolo\xczx\media\model\dto" />
+      <recent name="D:\Web学习\xczxProject\xczx-media\xczx-media-model\src\main\java\com\yolo\xczx\media\model\po" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yolo.content.model.po" />
+      <recent name="com.yolo.xczx" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,13 +201,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.XczxApiApplication">
-    <configuration name="ContentCodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yolo.xczx.generator.ContentCodeGenerator" />
-      <module name="xczx-generator" />
+  <component name="RunManager" selected="应用程序.MinioTest">
+    <configuration name="MinioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yolo.xczx.MinioTest" />
+      <module name="xczx-media-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yolo.xczx.generator.*" />
+          <option name="PATTERN" value="com.yolo.xczx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,21 +215,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xc-content-api | 新增课程" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="2" requestIdentifier="新增课程" runType="运行单个请求">
+    <configuration name="xc-content-api | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="2" requestIdentifier="#2" runType="运行单个请求">
       <method v="2" />
     </configuration>
-    <configuration name="CourseBaseMapperTests.testCourseCategoryService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xczx-content-service" />
+    <configuration name="xc-content-api | 媒资查询接口" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="7" requestIdentifier="媒资查询接口" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="MediaTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xczx-media-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yolo.xczx.content.*" />
+          <option name="PATTERN" value="com.yolo.xczx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yolo.xczx.content" />
-      <option name="MAIN_CLASS_NAME" value="com.yolo.xczx.content.CourseBaseMapperTests" />
-      <option name="METHOD_NAME" value="testCourseCategoryService" />
+      <option name="PACKAGE_NAME" value="com.yolo.xczx" />
+      <option name="MAIN_CLASS_NAME" value="com.yolo.xczx.MediaTest" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xczx-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yolo.xczx.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xczx-media-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yolo.xczx.MediaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,37 +267,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP 请求.xc-content-api | 新增课程" />
-        <item itemvalue="JUnit.CourseBaseMapperTests.testCourseCategoryService" />
-        <item itemvalue="应用程序.ContentCodeGenerator" />
+        <item itemvalue="应用程序.MinioTest" />
+        <item itemvalue="HTTP 请求.xc-content-api | 媒资查询接口" />
+        <item itemvalue="HTTP 请求.xc-content-api | #2" />
+        <item itemvalue="JUnit.MediaTest.testSearch" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="830e63b6-8e71-4fc6-82df-82efaadf30ef" name="变更" comment="" />
-      <created>1677476375631</created>
+      <changelist id="f5fd41db-947f-441f-b494-57c2b199d8ce" name="变更" comment="" />
+      <created>1677740489668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677476375631</updated>
-      <workItem from="1677476377648" duration="11047000" />
+      <updated>1677740489668</updated>
+      <workItem from="1677740491236" duration="4500000" />
+      <workItem from="1677745584558" duration="5848000" />
+      <workItem from="1677757139569" duration="442000" />
+      <workItem from="1677811118229" duration="5397000" />
     </task>
-    <task id="LOCAL-00001" summary="修改结构">
-      <created>1677476478735</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1677476478735</updated>
-    </task>
-    <task id="LOCAL-00002" summary="课程分类查询开发，测试成功">
-      <created>1677487728634</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677487728634</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,19 +294,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="修改结构" />
-    <MESSAGE value="课程分类查询开发，测试成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="课程分类查询开发，测试成功" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xczx-content/xczx-content-service/src/test/java/com/yolo/xczx/content/CourseBaseMapperTests.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

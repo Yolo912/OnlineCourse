@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+     <parent>
+        <groupId>com.yolo.xczx</groupId>
+        <artifactId>xczx-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../xczx-parent</relativePath>
+    </parent>
+    <artifactId>xczx-media</artifactId>
+    <name>xczx-media</name>
+    <description>xczx-media</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>xczx-media-api</module>
+        <module>xczx-media-service</module>
+        <module>xczx-media-model</module>
+    </modules>
+</project>

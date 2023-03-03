@@ -8,16 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xczx-generator" enabled="true">
+      <profile name="Annotation profile for xczx-media" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../Maven/apache-maven-3.6.1/maven-repo/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
+        <module name="xczx-media-model" />
+        <module name="xczx-media-service" />
         <module name="xczx-content-service" />
         <module name="xczx-system-model" />
+        <module name="xczx-media-api" />
         <module name="xczx-system-api" />
+        <module name="xczx-gateway" />
         <module name="xczx-system-service" />
         <module name="xczx-base" />
         <module name="xczx-content-model" />
@@ -31,7 +35,12 @@
       <module name="xczx-content-api" target="1.8" />
       <module name="xczx-content-model" target="1.8" />
       <module name="xczx-content-service" target="1.8" />
+      <module name="xczx-gateway" target="1.8" />
       <module name="xczx-generator" target="1.8" />
+      <module name="xczx-media" target="1.8" />
+      <module name="xczx-media-api" target="1.8" />
+      <module name="xczx-media-model" target="1.8" />
+      <module name="xczx-media-service" target="1.8" />
       <module name="xczx-parent" target="1.8" />
       <module name="xczx-system" target="1.8" />
       <module name="xczx-system-api" target="1.8" />
