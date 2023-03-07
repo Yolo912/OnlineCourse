@@ -2,31 +2,31 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xczx-media" enabled="true">
+      <profile name="Annotation profile for xczx-message-sdk" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../Maven/apache-maven-3.6.1/maven-repo/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
-        <module name="xczx-media-model" />
         <module name="xczx-media-service" />
+        <module name="xczx-media-model" />
         <module name="xczx-content-service" />
-        <module name="xczx-system-model" />
+        <module name="xczx-message-sdk" />
         <module name="xczx-media-api" />
         <module name="xczx-system-api" />
-        <module name="xczx-gateway" />
-        <module name="xczx-system-service" />
-        <module name="xczx-base" />
         <module name="xczx-content-model" />
         <module name="xczx-generator" />
         <module name="xczx-content-api" />
+        <module name="xczx-system-model" />
+        <module name="xczx-gateway" />
+        <module name="xczx-system-service" />
+        <module name="xczx-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +41,7 @@
       <module name="xczx-media-api" target="1.8" />
       <module name="xczx-media-model" target="1.8" />
       <module name="xczx-media-service" target="1.8" />
+      <module name="xczx-message-sdk" target="1.8" />
       <module name="xczx-parent" target="1.8" />
       <module name="xczx-system" target="1.8" />
       <module name="xczx-system-api" target="1.8" />

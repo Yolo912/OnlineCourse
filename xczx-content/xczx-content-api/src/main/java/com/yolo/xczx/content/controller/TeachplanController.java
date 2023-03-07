@@ -1,5 +1,6 @@
 package com.yolo.xczx.content.controller;
 
+import com.yolo.xczx.content.model.dto.BindTeachplanMediaDto;
 import com.yolo.xczx.content.model.dto.SaveTeachplanDto;
 import com.yolo.xczx.content.model.dto.TeachplanDto;
 import com.yolo.xczx.content.service.TeachplanService;
@@ -31,4 +32,10 @@ public class TeachplanController {
         teachplanService.saveTeachplan(teachplan);
     }
 
+
+    @ApiOperation(value = "课程计划和媒资信息绑定")
+    @PostMapping("/teachplan/association/media")
+    public void associationMedia(@RequestBody BindTeachplanMediaDto bindTeachplanMediaDto){
+        teachplanService.associationMedia(bindTeachplanMediaDto);
+    }
 }

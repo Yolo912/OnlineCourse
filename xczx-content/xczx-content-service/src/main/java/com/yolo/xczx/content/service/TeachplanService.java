@@ -1,7 +1,9 @@
 package com.yolo.xczx.content.service;
 
+import com.yolo.xczx.content.model.dto.BindTeachplanMediaDto;
 import com.yolo.xczx.content.model.dto.SaveTeachplanDto;
 import com.yolo.xczx.content.model.dto.TeachplanDto;
+import com.yolo.xczx.content.model.po.TeachplanMedia;
 
 import java.util.List;
 
@@ -23,4 +25,11 @@ public interface TeachplanService {
      * @param teachplanDto
      */
     void saveTeachplan(SaveTeachplanDto teachplanDto);
+
+
+    /**
+     * @description 教学计划绑定媒资
+     * @param bindTeachplanMediaDto
+     */
+    TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto);
 }
