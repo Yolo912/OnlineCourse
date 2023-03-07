@@ -1,8 +1,8 @@
 package com.yolo.xczx.messagesdk;
 
-import com.xuecheng.messagesdk.model.po.MqMessage;
-import com.xuecheng.messagesdk.service.MessageProcessAbstract;
-import com.xuecheng.messagesdk.service.MqMessageService;
+import com.yolo.xczx.messagesdk.model.po.MqMessage;
+import com.yolo.xczx.messagesdk.service.MessageProcessAbstract;
+import com.yolo.xczx.messagesdk.service.MqMessageService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
